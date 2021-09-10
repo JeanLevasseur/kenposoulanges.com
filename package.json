@@ -1,0 +1,27 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^2.2.15"
+  },
+  "name": "kenposoulanges.com",
+  "version": "0.1.0",
+  "description": "Site web pour Kenpo Soulanges",
+  "scripts": {
+    "tailwind:watch": "tailwindcss -o tailwind.css -w",
+    "tailwind:build": "NODE_ENV=production tailwindcss -o tailwind.css --minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JeanLevasseur/kenposoulanges.com.git"
+  },
+  "keywords": [
+    "website",
+    "tailwindcss",
+    "kenposoulanges"
+  ],
+  "author": "Jean Levasseur <jean@jeanlevasseur.com> (https://jeanlevasseur.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JeanLevasseur/kenposoulanges.com/issues"
+  },
+  "homepage": "https://github.com/JeanLevasseur/kenposoulanges.com#readme"
+}
